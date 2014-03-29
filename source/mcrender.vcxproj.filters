@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="gui">
+      <UniqueIdentifier>{f8e7c3d0-bf89-4ed6-af8a-b7f1e513c411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render">
+      <UniqueIdentifier>{e24829a2-2e21-4498-8cfc-689109b4107b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{0f0f6820-95e8-4452-ba50-6fcd5be2c26c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nbt">
+      <UniqueIdentifier>{902be011-1343-4601-933e-8872d811c868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pipelines">
+      <UniqueIdentifier>{373f2bb0-5242-4e8a-9145-17ca94227e9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="blocks">
+      <UniqueIdentifier>{9aacb515-cdf5-4b53-8280-9a011be38c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physics">
+      <UniqueIdentifier>{95f63cee-e772-460e-bf17-2c427e71514f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xml">
+      <UniqueIdentifier>{5db94812-2990-4a74-8f8a-0901c0dd3054}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gui\gui.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\window.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="main\cameraGL.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\chunk.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\Console.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\crafting.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\fluids.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\glfont.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\Globals.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\item.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\JSFramework.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\KeyMap.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\Loader.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\Material.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\picking.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\player.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\ProfileCounter.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\Timer.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\VBuffer.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\world.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="nbt\compressed.cpp">
+      <Filter>nbt</Filter>
+    </ClCompile>
+    <ClCompile Include="nbt\nbt.cpp">
+      <Filter>nbt</Filter>
+    </ClCompile>
+    <ClCompile Include="nbt\nbtaccessor.cpp">
+      <Filter>nbt</Filter>
+    </ClCompile>
+    <ClCompile Include="nbt\nbtnode.cpp">
+      <Filter>nbt</Filter>
+    </ClCompile>
+    <ClCompile Include="render\defaultrenderer.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\renderer.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="pipelines\loadpipeline.cpp">
+      <Filter>pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="pipelines\updatepipeline.cpp">
+      <Filter>pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="main\chunkcreator.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\tileentity.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\block.cpp">
+      <Filter>blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="main\blockinfo.cpp">
+      <Filter>blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="main\blockrenderinfo.cpp">
+      <Filter>blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\collision.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\charactercontroller.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Programming\tinyxml2\tinyxml2.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gui\gui.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\guivisitor.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\window.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="main\cameraGL.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\chunk.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\Console.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\consolecommands.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\crafting.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\defines.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\fluids.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\glfont.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\Globals.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\item.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\JSFramework.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\Loader.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\Material.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\MatrixX.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\OpenGL.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\picking.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\player.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\ProfileCounter.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\Timer.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\VBuffer.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\VectorX.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\vertex.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\world.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="nbt\compressed.h">
+      <Filter>nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="nbt\nbt.h">
+      <Filter>nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="nbt\nbtaccessor.h">
+      <Filter>nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="nbt\nbtnode.h">
+      <Filter>nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="render\defaultrenderer.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\renderer.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="pipelines\loadpipeline.h">
+      <Filter>pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="pipelines\updatepipeline.h">
+      <Filter>pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="main\chunkcreator.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\tileentity.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\eventmanager.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\blockrenderinfo.h">
+      <Filter>blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="main\block.h">
+      <Filter>blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="main\blockinfo.h">
+      <Filter>blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\collision.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\charactercontroller.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Programming\tinyxml2\tinyxml2.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

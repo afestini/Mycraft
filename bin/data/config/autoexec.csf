@@ -1,0 +1,7 @@
+#General#
+setmovementspeed 5 mps
+
+#Camera#
+camsetposition 0 70 0
+camsetviewdistance .1 1000
+camsetfov 60

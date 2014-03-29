@@ -1,0 +1,15 @@
+<recipes>
+
+<recipe in="Sand" out="Glass" />
+<recipe in="Wood" out="Coal" />
+<recipe in="Iron Ore" out="Iron Ingot" />
+<recipe in="Gold Ore" out="Gold Ingot" />
+<recipe in="Diamond Ore" out="Diamond" />
+<recipe in="Cobblestone" out="Stone" />
+
+<recipe in="Raw Porkchop" out="Cooked Porkchop" />
+<recipe in="Raw Fish" out="Cooked Fish" />
+<recipe in="Clay" out="Clay Brick" />
+<recipe in="Cactus" out="Cactus Green" />
+
+</recipes>

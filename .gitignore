@@ -1,0 +1,15 @@
+*.sdf
+.svn/
+*.user
+*.pch
+*.suo
+*.ilk
+*.exe
+*.pdb
+[Dd]ebug/
+[Rr]release/
+screenshots/
+obj/
+*.opensdf
+source/.vs/*
+*.db

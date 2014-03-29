@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Programming\tinyxml2\tinyxml2.cpp" />
+    <ClCompile Include="gui\gui.cpp" />
+    <ClCompile Include="gui\window.cpp" />
+    <ClCompile Include="main\block.cpp" />
+    <ClCompile Include="main\blockinfo.cpp" />
+    <ClCompile Include="main\blockrenderinfo.cpp" />
+    <ClCompile Include="main\cameraGL.cpp" />
+    <ClCompile Include="main\chunk.cpp" />
+    <ClCompile Include="main\chunkcreator.cpp" />
+    <ClCompile Include="main\Console.cpp" />
+    <ClCompile Include="main\crafting.cpp" />
+    <ClCompile Include="main\fluids.cpp" />
+    <ClCompile Include="main\glfont.cpp" />
+    <ClCompile Include="main\Globals.cpp" />
+    <ClCompile Include="main\item.cpp" />
+    <ClCompile Include="main\JSFramework.cpp" />
+    <ClCompile Include="main\KeyMap.cpp" />
+    <ClCompile Include="main\Loader.cpp" />
+    <ClCompile Include="main\main.cpp" />
+    <ClCompile Include="main\Material.cpp" />
+    <ClCompile Include="main\picking.cpp" />
+    <ClCompile Include="main\player.cpp" />
+    <ClCompile Include="main\ProfileCounter.cpp" />
+    <ClCompile Include="main\tileentity.cpp" />
+    <ClCompile Include="main\Timer.cpp" />
+    <ClCompile Include="main\VBuffer.cpp" />
+    <ClCompile Include="main\world.cpp" />
+    <ClCompile Include="nbt\compressed.cpp" />
+    <ClCompile Include="nbt\nbt.cpp" />
+    <ClCompile Include="nbt\nbtaccessor.cpp" />
+    <ClCompile Include="nbt\nbtnode.cpp" />
+    <ClCompile Include="physics\charactercontroller.cpp" />
+    <ClCompile Include="physics\collision.cpp" />
+    <ClCompile Include="pipelines\loadpipeline.cpp" />
+    <ClCompile Include="pipelines\updatepipeline.cpp" />
+    <ClCompile Include="render\defaultrenderer.cpp" />
+    <ClCompile Include="render\renderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Programming\tinyxml2\tinyxml2.h" />
+    <ClInclude Include="gui\gui.h" />
+    <ClInclude Include="gui\guivisitor.h" />
+    <ClInclude Include="gui\window.h" />
+    <ClInclude Include="main\block.h" />
+    <ClInclude Include="main\blockinfo.h" />
+    <ClInclude Include="main\blockrenderinfo.h" />
+    <ClInclude Include="main\cameraGL.h" />
+    <ClInclude Include="main\chunk.h" />
+    <ClInclude Include="main\chunkcreator.h" />
+    <ClInclude Include="main\Console.h" />
+    <ClInclude Include="main\consolecommands.h" />
+    <ClInclude Include="main\crafting.h" />
+    <ClInclude Include="main\defines.h" />
+    <ClInclude Include="main\eventmanager.h" />
+    <ClInclude Include="main\fluids.h" />
+    <ClInclude Include="main\glfont.h" />
+    <ClInclude Include="main\Globals.h" />
+    <ClInclude Include="main\item.h" />
+    <ClInclude Include="main\JSFramework.h" />
+    <ClInclude Include="main\Loader.h" />
+    <ClInclude Include="main\Material.h" />
+    <ClInclude Include="main\MatrixX.h" />
+    <ClInclude Include="main\OpenGL.h" />
+    <ClInclude Include="main\picking.h" />
+    <ClInclude Include="main\player.h" />
+    <ClInclude Include="main\ProfileCounter.h" />
+    <ClInclude Include="main\tileentity.h" />
+    <ClInclude Include="main\Timer.h" />
+    <ClInclude Include="main\VBuffer.h" />
+    <ClInclude Include="main\VectorX.h" />
+    <ClInclude Include="main\vertex.h" />
+    <ClInclude Include="main\world.h" />
+    <ClInclude Include="nbt\compressed.h" />
+    <ClInclude Include="nbt\nbt.h" />
+    <ClInclude Include="nbt\nbtaccessor.h" />
+    <ClInclude Include="nbt\nbtnode.h" />
+    <ClInclude Include="physics\charactercontroller.h" />
+    <ClInclude Include="physics\collision.h" />
+    <ClInclude Include="pipelines\loadpipeline.h" />
+    <ClInclude Include="pipelines\updatepipeline.h" />
+    <ClInclude Include="render\defaultrenderer.h" />
+    <ClInclude Include="render\renderer.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DC824FA4-BC67-4D37-9F0A-E00CCA593AC6}</ProjectGuid>
+    <ProjectName>mcrender</ProjectName>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\test\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\obj\$(Configuration)\$(ProjectName)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\obj\$(Configuration)\$(ProjectName)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Programming\tbb\lib\ia32\vc10;D:\Programming\glfw\lib\win32;D:\Programming\glew\lib\Release\Win32;..\lib;D:\Programming\SOIL\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Programming\tbb\lib\ia32\vc10;D:\Programming\glfw\lib\win32;D:\Programming\glew\lib\Release\Win32;..\lib;D:\Programming\SOIL\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <TypeLibraryName>.\Debug/JSFramework.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <PrecompiledHeaderOutputFile>$(IntDir)\$(ProjectName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <SmallerTypeCheck>true</SmallerTypeCheck>
+      <BrowseInformation>true</BrowseInformation>
+      <AdditionalIncludeDirectories>D:\Programming\tbb\include;D:\Programming\SOIL\src;D:\Programming\glfw\include;D:\Programming\glew\include;D:\Programming\tinyxml2</AdditionalIncludeDirectories>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0407</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>soild.lib;zlibd.lib;glfwd.lib;opengl32.lib;glu32.lib;glew32sd.lib;Winmm.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)/$(TargetName)$(TargetExt) </OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(IntDir)\$(ProjectName).pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>$(IntDir)$(ProjectName).bsc</OutputFile>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <TypeLibraryName>.\Release/JSFramework.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <PrecompiledHeaderOutputFile>$(IntDir)\$(ProjectName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <BrowseInformation>true</BrowseInformation>
+      <EnablePREfast>false</EnablePREfast>
+      <AdditionalIncludeDirectories>D:\Programming\tbb\include;D:\Programming\SOIL\src;D:\Programming\glfw\include;D:\Programming\glew\include;D:\Programming\tinyxml2</AdditionalIncludeDirectories>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0407</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>soil.lib;zlib.lib;glfw.lib;opengl32.lib;glu32.lib;glew32s.lib;Winmm.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)/$(TargetName)$(TargetExt) </OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>$(IntDir)\$(ProjectName).pdb</ProgramDatabaseFile>
+      <SubSystem>NotSet</SubSystem>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <Profile>false</Profile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>$(IntDir)$(ProjectName).bsc</OutputFile>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

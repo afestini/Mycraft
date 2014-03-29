@@ -1,0 +1,175 @@
+<blockdefinitions>
+
+<block id="0" name="Air" textureID="1" lightReduction="0" hardness="0" collisionType="0"/>
+<block id="1" name="Stone" textureID="1" tool="Pickaxe" hardness="45" resistance="10" minHarvestLevel="1" >
+	<drop item="Cobblestone" probability="100" />
+</block>
+<block id="2" name="Grass" textureID="3" tool="Shovel" hardness="18" resistance="3">
+	<drop item="Dirt" probability="100" />
+</block>
+<block id="3" name="Dirt" textureID="2" tool="Shovel" hardness="15" resistance="2.5">
+	<drop item="Dirt" probability="100" />
+</block>
+<block id="4" name="Cobblestone" textureID="16" tool="Pickaxe" hardness="60" resistance="10" minHarvestLevel="1">
+	<drop item="Cobblestone" probability="100" />
+</block>
+<block id="5" name="Wooden Plank" textureID="4" tool="Axe" hardness="60" resistance="5">
+	<drop item="Wooden Plank" probability="100" />
+</block>
+<block id="6" name="Sapling" textureID="15" lightReduction="0" specialGeometry="1" itemVariant="1">
+	<drop item="Sapling" probability="100" />
+</block>
+<block id="7" name="Bedrock" textureID="17" hardness="-1" />
+<block id="8" name="Water" textureID="205" lightReduction="3" specialGeometry="1"  hardness="-1" collisionType="2"/>
+<block id="9" name="Still Water" textureID="205" lightReduction="3" specialGeometry="1" hardness="-1"  collisionType="2"/>
+<block id="10" name="Lava" textureID="237" lightEmission="15" specialGeometry="1" hardness="-1"  collisionType="2"/>
+<block id="11" name="Still Lava" textureID="237" lightEmission="15" specialGeometry="1" hardness="-1"  collisionType="2"/>
+<block id="12" name="Sand" textureID="18" tool="Shovel" hardness="15" >
+	<drop item="Sand" probability="100" />
+</block>
+<block id="13" name="Gravel" textureID="19" tool="Shovel" hardness="18" >
+	<drop item="Gravel" probability="90" />
+	<drop item="Flint" probability="10" />
+</block>
+<block id="14" name="Gold Ore" textureID="32" tool="Pickaxe" hardness="90" minHarvestLevel="2">
+	<drop item="Gold Ore" probability="100" />
+</block>
+<block id="15" name="Iron Ore" textureID="33" tool="Pickaxe" hardness="90" minHarvestLevel="2">
+	<drop item="Iron Ore" probability="100" />
+</block>
+<block id="16" name="Coal Ore" textureID="34" tool="Pickaxe" hardness="90" minHarvestLevel="1">
+	<drop item="Coal" probability="100" />
+</block>
+
+<block id="17" name="Wood" textureID="20" tool="Axe" hardness="60">
+	<drop item="Wood" probability="100" />
+	<geometry variant="0" texture="20" textureTop="21" textureBottom="21" />
+	<geometry variant="1" texture="116" textureTop="21" textureBottom="21" />
+	<geometry variant="2" texture="117" textureTop="21" textureBottom="21" />
+</block>
+
+<block id="18" name="Leaves" textureID="52" lightReduction="1" hardness="6">
+	<drop item="Sapling" probability="20" />
+</block>
+<block id="19" name="Sponge" textureID="48" hardness="18" />
+<block id="20" name="Glass" textureID="49" lightReduction="0" hardness="9" />
+<block id="21" name="Lapis Lazuli Ore" textureID="160" tool="Pickaxe" hardness="90" minHarvestLevel="2" />
+<block id="22" name="Lapis Lazuli Block" textureID="144" tool="Pickaxe" hardness="90" minHarvestLevel="2" />
+
+<block id="23" name="Dispenser" textureID="45" tool="Pickaxe" hardness="105" minHarvestLevel="1" itemVariant="1">
+	<drop item="Dispenser" probability="100" />
+	<geometry variant="0" textureFront="46" textureTop="52" textureBottom="52" />
+	<geometry variant="1" textureBack="46" textureTop="52" textureBottom="52" />
+	<geometry variant="2" textureLeft="46" textureTop="52" textureBottom="52" />
+	<geometry variant="3" textureRight="46" textureTop="52" textureBottom="52" />
+</block>
+
+<block id="24" name="Sandstone" textureID="176" tool="Pickaxe" hardness="24" minHarvestLevel="1" />
+<block id="25" name="Note Block" textureID="74" hardness="24" >
+	<drop item="Note Block" probability="100" />
+</block>
+<block id="26" name="Bed Block" textureID="134" lightReduction="0" hardness="6" />
+
+<block id="35" name="Wool" textureID="64" hardness="24" />
+
+<block id="37" name="Yellow Flower" textureID="13" lightReduction="0" specialGeometry="1" itemVariant="1"/>
+<block id="38" name="Red Rose" textureID="12" lightReduction="0" specialGeometry="1" itemVariant="1"/>
+<block id="39" name="Brown Mushroom" textureID="29" lightReduction="0" specialGeometry="1" itemVariant="1"/>
+<block id="40" name="Red Mushroom" textureID="28" lightReduction="0" specialGeometry="1" itemVariant="1"/>
+<block id="41" name="Gold Block" textureID="23" tool="Pickaxe" hardness="90" minHarvestLevel="3" />
+<block id="42" name="Iron Block" textureID="22" tool="Pickaxe" hardness="150" minHarvestLevel="3" />
+<block id="43" name="Double Slab" textureID="5" tool="Pickaxe" hardness="60" minHarvestLevel="1" />
+<block id="44" name="Slab" textureID="6" lightReduction="0" specialGeometry="1" tool="Pickaxe" hardness="60" minHarvestLevel="1" />
+<block id="45" name="Brick Block" textureID="7" tool="Pickaxe" hardness="60" minHarvestLevel="1" />
+<block id="46" name="TNT" textureID="8" />
+<block id="47" name="Bookshelf" textureID="35" hardness="45" tool="Axe" />
+<block id="48" name="Moss Stone" textureID="36" hardness="60" tool="Pickaxe" minHarvestLevel="1" />
+<block id="49" name="Obsidian" textureID="37" hardness="300" tool="Pickaxe" minHarvestLevel="4" />
+<block id="50" name="Torch" textureID="80" lightReduction="0" lightEmission="14" specialGeometry="1" itemVariant="5"  collisionType="0">
+	<drop item="Torch" probability="100" />
+</block>
+<block id="51" name="Fire" textureID="31" />
+<block id="52" name="Spawner" textureID="8" lightReduction="15" tool="Pickaxe" hardness="5" minHarvestLevel="1" />
+<block id="53" name="Wooden Stairs" textureID="4" lightReduction="0" specialGeometry="1" tool="Axe" hardness="90" >
+	<drop item="Wooden Plank" probability="100" />
+</block>
+
+<block id="54" name="Chest" textureID="26" tool="Axe" hardness="75" itemVariant="1">
+	<drop item="Chest" probability="100" />
+	<geometry variant="0" textureBack="27" textureTop="25" textureBottom="25" />
+	<geometry variant="1" textureFront="27" textureTop="25" textureBottom="25" />
+	<geometry variant="2" textureLeft="27" textureTop="25" textureBottom="25" />
+	<geometry variant="3" textureRight="27" textureTop="25" textureBottom="25" />
+	
+	<geometry variant="4" textureBack="41" textureFront="58" textureTop="25" textureBottom="25" />
+	<geometry variant="5" textureFront="41" textureBack="58" textureTop="25" textureBottom="25" />
+	<geometry variant="6" textureLeft="41" textureRight="58" textureTop="25" textureBottom="25" />
+	<geometry variant="7" textureRight="41" textureLeft="58" textureTop="25" textureBottom="25" />
+	
+	<geometry variant="8" textureBack="42" textureFront="57" textureTop="25" textureBottom="25" />
+	<geometry variant="9" textureFront="42" textureBack="57" textureTop="25" textureBottom="25" />
+	<geometry variant="10" textureLeft="42" textureRight="57" textureTop="25" textureBottom="25" />
+	<geometry variant="11" textureRight="42" textureLeft="57" textureTop="25" textureBottom="25" />
+</block>
+
+<block id="55" name="Redstone Wire" textureID="97" lightReduction="0" specialGeometry="1" />
+<block id="56" name="Diamon Ore" textureID="50" tool="Pickaxe" hardness="90" minHarvestLevel="2" />
+<block id="57" name="Diamond Block" textureID="24" tool="Pickaxe" hardness="150" minHarvestLevel="3" />
+<block id="58" name="Workbench" textureID="43" tool="Axe" hardness="75" />
+<block id="59" name="Crops" textureID="95" lightReduction="0" specialGeometry="1">
+	<drop item="Crops" probability="100" />
+</block>
+<block id="60" name="Farmland" textureID="86" tool="Shovel" hardness="18" />
+
+<block id="61" name="Furnace Off" textureID="45" tool="Pickaxe" hardness="105" minHarvestLevel="1" itemVariant="1">
+	<drop item="Furnace Off" probability="100" />
+	<geometry variant="0" textureBack="44" textureTop="62" textureBottom="62" />
+	<geometry variant="1" textureFront="44" textureTop="62" textureBottom="62" />
+	<geometry variant="2" textureLeft="44" textureTop="62" textureBottom="62" />
+	<geometry variant="3" textureRight="44" textureTop="62" textureBottom="62" />
+</block>
+
+<block id="62" name="Furnace On" textureID="45" lightEmission="14" tool="Pickaxe" hardness="105" minHarvestLevel="1" itemVariant="1">
+	<drop item="Furnace Off" probability="100" />
+	<geometry variant="0" textureBack="61" textureTop="62" textureBottom="62" />
+	<geometry variant="1" textureFront="61" textureTop="62" textureBottom="62" />
+	<geometry variant="2" textureLeft="61" textureTop="62" textureBottom="62" />
+	<geometry variant="3" textureRight="61" textureTop="62" textureBottom="62" />
+</block>
+
+<block id="63" name="Sign Post" textureID="0" lightReduction="0" specialGeometry="1" tool="Axe" hardness="30" />
+<block id="64" name="Wooden Door Block" textureID="97" lightReduction="0" specialGeometry="1" tool="Axe" hardness="90" />
+<block id="65" name="Ladder" textureID="83" lightReduction="0" specialGeometry="1" tool="Axe" hardness="12" itemVariant="2"/>
+<block id="66" name="Rails" textureID="0" lightReduction="0" specialGeometry="1" hardness="21" />
+<block id="67" name="Cobblestone Stairs" textureID="16" lightReduction="0" specialGeometry="1" tool="Pickaxe" hardness="60" >
+	<drop item="Cobblestone" probability="100" />
+</block>
+<block id="68" name="Wall Sign" textureID="0" lightReduction="0" specialGeometry="1" tool="Axe" hardness="30" />
+<block id="69" name="Lever" textureID="0" lightReduction="0" specialGeometry="1" hardness="15" />
+<block id="70" name="Stone Pressure Plate" textureID="0" lightReduction="0" specialGeometry="1" tool="Pickaxe" hardness="15" />
+<block id="71" name="Iron Door Block" textureID="98" lightReduction="0" specialGeometry="1" tool="Pickaxe" hardness="150" minHarvestLevel="1" />
+<block id="72" name="Wooden Pressure Plate" textureID="0" lightReduction="0" specialGeometry="1" tool="Axe" hardness="15" minHarvestLevel="1" />
+<block id="73" name="Redstone Ore" textureID="0" lightReduction="0" specialGeometry="1" tool="Pickaxe" hardness="90" minHarvestLevel="3" />
+<block id="74" name="Glowing Redstone Ore" textureID="0" lightReduction="0" specialGeometry="1" tool="Pickaxe" hardness="90" />
+<block id="75" name="Redstone Torch Off" textureID="0" lightReduction="0" specialGeometry="1"  collisionType="0"/>
+<block id="76" name="Redstone Torch On" textureID="0" lightReduction="0" specialGeometry="1" lightEmission="10"  collisionType="0" />
+<block id="77" name="Stone Button" textureID="0" lightReduction="0" specialGeometry="1" tool="Pickaxe" hardness="15" />
+<block id="78" name="Snow" textureID="66" lightReduction="0" specialGeometry="1" tool="Shovel" hardness="3" minHarvestLevel="1" />
+<block id="79" name="Ice" textureID="67" lightReduction="3" tool="Pickaxe" hardness="15" minHarvestLevel="1" />
+<block id="80" name="Snow Block" textureID="66" tool="Shovel" hardness="6"  minHarvestLevel="1"/>
+<block id="81" name="Cactus" textureID="70" hardness="12" />
+<block id="82" name="Clay Block" textureID="0" tool="Shovel" hardness="18" />
+<block id="83" name="Sugar Cane Block" textureID="73" lightReduction="0" specialGeometry="1" />
+<block id="84" name="Jukebox" textureID="74" lightReduction="0" specialGeometry="1" hardness="60" />
+<block id="85" name="Fence" textureID="4" lightReduction="0" specialGeometry="1" tool="Axe" hardness="60" />
+<block id="86" name="Pumpkin" textureID="118" hardness="30" />
+<block id="87" name="Nether Rack" textureID="0" lightReduction="0" specialGeometry="1" tool="Pickaxe" hardness="12" minHarvestLevel="1" />
+<block id="88" name="Soul Sand" textureID="0" lightReduction="0" specialGeometry="1" hardness="15" />
+<block id="89" name="Glowstone Block" textureID="0" lightEmission="14" hardness="9" />
+<block id="90" name="Portal" textureID="0" lightReduction="0" specialGeometry="1" hardness="-1" />
+<block id="91" name="JackOLantern" textureID="118" lightEmission="10" hardness="30" />
+<block id="92" name="Cake Block" textureID="0" lightReduction="0" specialGeometry="1" hardness="15" />
+<block id="93" name="Redstone Repeater Off" textureID="0" lightReduction="0" specialGeometry="1" />
+<block id="94" name="Redstone Repeater On" textureID="0" lightReduction="0" specialGeometry="1" />
+
+</blockdefinitions>

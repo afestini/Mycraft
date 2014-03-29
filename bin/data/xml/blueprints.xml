@@ -1,0 +1,482 @@
+<blueprints>
+
+<blueprint product="Torch" amount="4" patternWidth="1" patternHeight="2">
+	<incredient name="Coal" /> 	
+	<incredient name="Stick" />
+</blueprint>
+
+<blueprint product="Stick" amount="4" patternWidth="1" patternHeight="2">
+	<incredient name="Wooden Plank" /> 	
+	<incredient name="Wooden Plank" />
+</blueprint>
+
+<blueprint product="Wooden Plank" amount="4" patternWidth="1" patternHeight="1">
+	<incredient name="Wood" />
+</blueprint>
+
+<blueprint product="Workbench" amount="1" patternWidth="2" patternHeight="2">
+	<incredient name="Wooden Plank" />	<incredient name="Wooden Plank" />
+	<incredient name="Wooden Plank" />	<incredient name="Wooden Plank" />
+</blueprint>
+
+<blueprint product="Furnace Off" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Cobblestone" /><incredient name="Cobblestone" /><incredient name="Cobblestone" />
+	<incredient name="Cobblestone" />	<incredient name="Air" />	<incredient name="Cobblestone" />
+	<incredient name="Cobblestone" /><incredient name="Cobblestone" /><incredient name="Cobblestone" />
+</blueprint>
+
+<blueprint product="Chest" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Wooden Plank" /><incredient name="Wooden Plank" /><incredient name="Wooden Plank" />
+	<incredient name="Wooden Plank" />	<incredient name="Air" />	<incredient name="Wooden Plank" />
+	<incredient name="Wooden Plank" /><incredient name="Wooden Plank" /><incredient name="Wooden Plank" />
+</blueprint>
+
+<blueprint product="Gold Block" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Gold Ingot" /><incredient name="Gold Ingot" /><incredient name="Gold Ingot" />
+	<incredient name="Gold Ingot" /><incredient name="Gold Ingot" /><incredient name="Gold Ingot" />
+	<incredient name="Gold Ingot" /><incredient name="Gold Ingot" /><incredient name="Gold Ingot" />
+</blueprint>
+
+<blueprint product="Iron Block" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Iron Ingot" /><incredient name="Iron Ingot" /><incredient name="Iron Ingot" />
+	<incredient name="Iron Ingot" /><incredient name="Iron Ingot" /><incredient name="Iron Ingot" />
+	<incredient name="Iron Ingot" /><incredient name="Iron Ingot" /><incredient name="Iron Ingot" />
+</blueprint>
+
+<blueprint product="Diamond Block" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Diamond Ingot" /><incredient name="Diamond Ingot" /><incredient name="Diamond Ingot" />
+	<incredient name="Diamond Ingot" /><incredient name="Diamond Ingot" /><incredient name="Diamond Ingot" />
+	<incredient name="Diamond Ingot" /><incredient name="Diamond Ingot" /><incredient name="Diamond Ingot" />
+</blueprint>
+
+<blueprint product="Lapis Lazuli Block" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Lapis Lazuli Ingot" /><incredient name="Lapis Lazuli Ingot" /><incredient name="Lapis Lazuli Ingot" />
+	<incredient name="Lapis Lazuli Ingot" /><incredient name="Lapis Lazuli Ingot" /><incredient name="Lapis Lazuli Ingot" />
+	<incredient name="Lapis Lazuli Ingot" /><incredient name="Lapis Lazuli Ingot" /><incredient name="Lapis Lazuli Ingot" />
+</blueprint>
+
+<blueprint product="Glowstone Block" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Glowstone" /><incredient name="Glowstone" /><incredient name="Glowstone" />
+	<incredient name="Glowstone" /><incredient name="Glowstone" /><incredient name="Glowstone" />
+	<incredient name="Glowstone" /><incredient name="Glowstone" /><incredient name="Glowstone" />
+</blueprint>
+
+<blueprint product="Wool" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="String" /><incredient name="String" /><incredient name="String" />
+	<incredient name="String" /><incredient name="String" /><incredient name="String" />
+	<incredient name="String" /><incredient name="String" /><incredient name="String" />
+</blueprint>
+
+<blueprint product="TNT" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Gunpowder" /><incredient name="Sand" /><incredient name="Gunpowder" />
+	<incredient name="Sand" /><incredient name="Gunpowder" /><incredient name="Sand" />
+	<incredient name="Gunpowder" /><incredient name="Sand" /><incredient name="Gunpowder" />
+</blueprint>
+
+<blueprint product="Wooden Stairs" amount="4" patternWidth="3" patternHeight="3">
+	<incredient name="Wooden Plank" /><incredient name="Air" /><incredient name="Air" />
+	<incredient name="Wooden Plank" /><incredient name="Wooden Plank" /><incredient name="Air" />
+	<incredient name="Wooden Plank" /><incredient name="Wooden Plank" /><incredient name="Wooden Plank" />
+</blueprint>
+
+<blueprint product="Cobblestone Stairs" amount="4" patternWidth="3" patternHeight="3">
+	<incredient name="Cobblestone" /><incredient name="Air" /><incredient name="Air" />
+	<incredient name="Cobblestone" /><incredient name="Cobblestone" /><incredient name="Air" />
+	<incredient name="Cobblestone" /><incredient name="Cobblestone" /><incredient name="Cobblestone" />
+</blueprint>
+
+<blueprint product="Snow Block" amount="1" patternWidth="2" patternHeight="2">
+	<incredient name="Snowball" /><incredient name="Snowball" />
+	<incredient name="Snowball" /><incredient name="Snowball" />
+</blueprint>
+
+<blueprint product="Clay Block" amount="1" patternWidth="2" patternHeight="2">
+	<incredient name="Clay" /><incredient name="Clay" />
+	<incredient name="Clay" /><incredient name="Clay" />
+</blueprint>
+
+<blueprint product="Brick Block" amount="1" patternWidth="2" patternHeight="2">
+	<incredient name="Clay Brick" /><incredient name="Clay Brick" />
+	<incredient name="Clay Brick" /><incredient name="Clay Brick" />
+</blueprint>
+
+<blueprint product="Sandstone" amount="1" patternWidth="2" patternHeight="2">
+	<incredient name="Sand" /><incredient name="Sand" />
+	<incredient name="Sand" /><incredient name="Sand" />
+</blueprint>
+
+<blueprint product="Bookshelf" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Wooden Plank"/><incredient name="Wooden Plank"/><incredient name="Wooden Plank"/>
+	<incredient name="Book"/>		<incredient name="Book"/>		<incredient name="Book"/>
+	<incredient name="Wooden Plank"/><incredient name="Wooden Plank"/><incredient name="Wooden Plank"/>
+</blueprint>
+
+<blueprint product="JackOLantern" amount="1" patternWidth="1" patternHeight="2">
+	<incredient name="Pumpkin"/>
+	<incredient name="Torch"/>
+</blueprint>
+
+
+
+<blueprint product="Wooden Axe" amount="1" patternWidth="2" patternHeight="3">
+	<incredient name="Wooden Plank"/><incredient name="Wooden Plank"/>
+	<incredient name="Wooden Plank"/><incredient name="Stick"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>
+</blueprint>
+
+<blueprint product="Stone Axe" amount="1" patternWidth="2" patternHeight="3">
+	<incredient name="Cobblestone"/><incredient name="Cobblestone"/>
+	<incredient name="Cobblestone"/><incredient name="Stick"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>
+</blueprint>
+
+<blueprint product="Iron Axe" amount="1" patternWidth="2" patternHeight="3">
+	<incredient name="Iron Ingot"/><incredient name="Iron Ingot"/>
+	<incredient name="Iron Ingot"/><incredient name="Stick"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>
+</blueprint>
+
+<blueprint product="Gold Axe" amount="1" patternWidth="2" patternHeight="3">
+	<incredient name="Gold Ingot"/><incredient name="Gold Ingot"/>
+	<incredient name="Gold Ingot"/><incredient name="Stick"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>
+</blueprint>
+
+<blueprint product="Diamond Axe" amount="1" patternWidth="2" patternHeight="3">
+	<incredient name="Diamond"/><incredient name="Diamond"/>
+	<incredient name="Diamond"/><incredient name="Stick"/>
+				<incredient name="Stick"/>
+</blueprint>
+
+
+
+<blueprint product="Wooden Pickaxe" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Wooden Plank"/><incredient name="Wooden Plank"/><incredient name="Wooden Plank"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>	<incredient name="Air"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>	<incredient name="Air"/>
+</blueprint>
+
+<blueprint product="Stone Pickaxe" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Cobblestone"/><incredient name="Cobblestone"/><incredient name="Cobblestone"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>	<incredient name="Air"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>	<incredient name="Air"/>
+</blueprint>
+
+<blueprint product="Iron Pickaxe" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Iron Ingot"/><incredient name="Iron Ingot"/><incredient name="Iron Ingot"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>	<incredient name="Air"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>	<incredient name="Air"/>
+
+</blueprint>
+
+<blueprint product="Gold Pickaxe" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Gold Ingot"/><incredient name="Gold Ingot"/><incredient name="Gold Ingot"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>	<incredient name="Air"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>	<incredient name="Air"/>
+
+</blueprint>
+
+<blueprint product="Diamond Pickaxe" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Diamond"/><incredient name="Diamond"/><incredient name="Diamond"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>	<incredient name="Air"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>	<incredient name="Air"/>
+</blueprint>
+
+
+
+<blueprint product="Wooden Hoe" amount="1" patternWidth="2" patternHeight="3">
+	<incredient name="Wooden Plank"/><incredient name="Wooden Plank"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>
+</blueprint>
+
+<blueprint product="Stone Hoe" amount="1" patternWidth="2" patternHeight="3">
+	<incredient name="Cobblestone"/><incredient name="Cobblestone"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>
+</blueprint>
+
+<blueprint product="Iron Hoe" amount="1" patternWidth="2" patternHeight="3">
+	<incredient name="Iron Ingot"/><incredient name="Iron Ingot"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>
+
+</blueprint>
+
+<blueprint product="Gold Hoe" amount="1" patternWidth="2" patternHeight="3">
+	<incredient name="Gold Ingot"/><incredient name="Gold Ingot"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>
+
+</blueprint>
+
+<blueprint product="Diamond Hoe" amount="1" patternWidth="2" patternHeight="3">
+	<incredient name="Diamond"/><incredient name="Diamond"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>
+	<incredient name="Air"/>	<incredient name="Stick"/>
+</blueprint>
+
+
+
+<blueprint product="Wooden Shovel" amount="1" patternWidth="1" patternHeight="3">
+	<incredient name="Wooden Plank"/>
+	<incredient name="Stick"/>
+	<incredient name="Stick"/>
+</blueprint>
+
+<blueprint product="Stone Shovel" amount="1" patternWidth="1" patternHeight="3">
+	<incredient name="Cobblestone"/>
+	<incredient name="Stick"/>
+	<incredient name="Stick"/>
+</blueprint>
+
+<blueprint product="Iron Shovel" amount="1" patternWidth="1" patternHeight="3">
+	<incredient name="Iron Ingot"/>
+	<incredient name="Stick"/>
+	<incredient name="Stick"/>
+</blueprint>
+
+<blueprint product="Gold Shovel" amount="1" patternWidth="1" patternHeight="3">
+	<incredient name="Gold Ingot"/>
+	<incredient name="Stick"/>
+	<incredient name="Stick"/>
+</blueprint>
+
+<blueprint product="Diamond Shovel" amount="1" patternWidth="1" patternHeight="3">
+	<incredient name="Diamond"/>
+	<incredient name="Stick"/>
+	<incredient name="Stick"/>
+</blueprint>
+
+
+<blueprint product="Flint and Steel" amount="1" patternWidth="2" patternHeight="2">
+	<incredient name="Iron Ingot"/><incredient name="Air"/>
+	<incredient name="Air"/><incredient name="Flint"/>
+</blueprint>
+
+<blueprint product="Bucket" amount="1" patternWidth="3" patternHeight="2">
+	<incredient name="Iron Ingot"/><incredient name="Air"/><incredient name="Iron Ingot"/>
+	<incredient name="Air"/><incredient name="Iron Ingot"/><incredient name="Air"/>
+</blueprint>
+
+<blueprint product="Compass" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Air"/><incredient name="Iron Ingot"/><incredient name="Air"/>
+	<incredient name="Iron Ingot"/><incredient name="Redstone"/><incredient name="Iron Ingot"/>
+	<incredient name="Air"/><incredient name="Iron Ingot"/><incredient name="Air"/>
+</blueprint>
+
+<blueprint product="Clock" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Air"/><incredient name="Gold Ingot"/><incredient name="Air"/>
+	<incredient name="Gold Ingot"/><incredient name="Redstone"/><incredient name="Gold Ingot"/>
+	<incredient name="Air"/><incredient name="Gold Ingot"/><incredient name="Air"/>
+</blueprint>
+
+<blueprint product="Fishing Rod" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Air"/><incredient name="Air"/><incredient name="Stick"/>
+	<incredient name="Air"/><incredient name="Stick"/><incredient name="String"/>
+	<incredient name="Stick"/><incredient name="Air"/><incredient name="String"/>
+</blueprint>
+
+
+
+<blueprint product="Wooden Sword" amount="1" patternWidth="1" patternHeight="3">
+	<incredient name="Wooden Plank"/>
+	<incredient name="Wooden Plank"/>
+	<incredient name="Stick"/>
+</blueprint>
+
+<blueprint product="Stone Sword" amount="1" patternWidth="1" patternHeight="3">
+	<incredient name="Cobblestone"/>
+	<incredient name="Cobblestone"/>
+	<incredient name="Stick"/>
+</blueprint>
+
+<blueprint product="Iron Sword" amount="1" patternWidth="1" patternHeight="3">
+	<incredient name="Iron Ingot"/>
+	<incredient name="Iron Ingot"/>
+	<incredient name="Stick"/>
+</blueprint>
+
+<blueprint product="Gold Sword" amount="1" patternWidth="1" patternHeight="3">
+	<incredient name="Gold Ingot"/>
+	<incredient name="Gold Ingot"/>
+	<incredient name="Stick"/>
+</blueprint>
+
+<blueprint product="Diamond Sword" amount="1" patternWidth="1" patternHeight="3">
+	<incredient name="Diamond"/>
+	<incredient name="Diamond"/>
+	<incredient name="Stick"/>
+</blueprint>
+
+
+<blueprint product="Bow" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Air"/><incredient name="Stick"/><incredient name="String"/>
+	<incredient name="Stick"/><incredient name="Air"/><incredient name="String"/>
+	<incredient name="Air"/><incredient name="Stick"/><incredient name="String"/>
+</blueprint>
+
+<blueprint product="Arrow" amount="4" patternWidth="1" patternHeight="3">
+	<incredient name="Flint"/>
+	<incredient name="Stick"/>
+	<incredient name="Feather"/>
+</blueprint>
+
+
+
+<blueprint product="Leather Helmet" amount="1" patternWidth="3" patternHeight="2">
+	<incredient name="Leather"/><incredient name="Leather"/><incredient name="Leather"/>
+	<incredient name="Leather"/><incredient name="Air"/><incredient name="Leather"/>
+</blueprint>
+
+<blueprint product="Iron Helmet" amount="1" patternWidth="3" patternHeight="2">
+	<incredient name="Iron Ingot"/><incredient name="Iron Ingot"/><incredient name="Iron Ingot"/>
+	<incredient name="Iron Ingot"/><incredient name="Air"/><incredient name="Iron Ingot"/>
+</blueprint>
+
+<blueprint product="Gold Helmet" amount="1" patternWidth="3" patternHeight="2">
+	<incredient name="Gold Ingot"/><incredient name="Gold Ingot"/><incredient name="Gold Ingot"/>
+	<incredient name="Gold Ingot"/><incredient name="Air"/><incredient name="Gold Ingot"/>
+</blueprint>
+
+<blueprint product="Diamond Helmet" amount="1" patternWidth="3" patternHeight="2">
+	<incredient name="Diamond"/><incredient name="Diamond"/><incredient name="Diamond"/>
+	<incredient name="Diamond"/><incredient name="Air"/><incredient name="Diamond"/>
+</blueprint>
+
+
+<blueprint product="Leather Chestplate" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Leather"/><incredient name="Air"/><incredient name="Leather"/>
+	<incredient name="Leather"/><incredient name="Leather"/><incredient name="Leather"/>
+	<incredient name="Leather"/><incredient name="Leather"/><incredient name="Leather"/>
+</blueprint>
+
+<blueprint product="Iron Chestplate" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Iron Ingot"/><incredient name="Air"/><incredient name="Iron Ingot"/>
+	<incredient name="Iron Ingot"/><incredient name="Iron Ingot"/><incredient name="Iron Ingot"/>
+	<incredient name="Iron Ingot"/><incredient name="Iron Ingot"/><incredient name="Iron Ingot"/>
+</blueprint>
+
+<blueprint product="Gold Chestplate" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Gold Ingot"/><incredient name="Air"/><incredient name="Gold Ingot"/>
+	<incredient name="Gold Ingot"/><incredient name="Gold Ingot"/><incredient name="Gold Ingot"/>
+	<incredient name="Gold Ingot"/><incredient name="Gold Ingot"/><incredient name="Gold Ingot"/>
+</blueprint>
+
+<blueprint product="Diamond Chestplate" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Diamond"/><incredient name="Air"/><incredient name="Diamond"/>
+	<incredient name="Diamond"/><incredient name="Diamond"/><incredient name="Diamond"/>
+	<incredient name="Diamond"/><incredient name="Diamond"/><incredient name="Diamond"/>
+</blueprint>
+
+
+<blueprint product="Leather Leggings" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Leather"/><incredient name="Leather"/><incredient name="Leather"/>
+	<incredient name="Leather"/><incredient name="Air"/><incredient name="Leather"/>
+	<incredient name="Leather"/><incredient name="Air"/><incredient name="Leather"/>
+</blueprint>
+
+<blueprint product="Iron Leggings" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Iron Ingot"/><incredient name="Iron Ingot"/><incredient name="Iron Ingot"/>
+	<incredient name="Iron Ingot"/><incredient name="Air"/><incredient name="Iron Ingot"/>
+	<incredient name="Iron Ingot"/><incredient name="Air"/><incredient name="Iron Ingot"/>
+</blueprint>
+
+<blueprint product="Gold Leggings" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Gold Ingot"/><incredient name="Gold Ingot"/><incredient name="Gold Ingot"/>
+	<incredient name="Gold Ingot"/><incredient name="Air"/><incredient name="Gold Ingot"/>
+	<incredient name="Gold Ingot"/><incredient name="Air"/><incredient name="Gold Ingot"/>
+</blueprint>
+
+<blueprint product="Diamond Leggings" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Diamond"/><incredient name="Diamond"/><incredient name="Diamond"/>
+	<incredient name="Diamond"/><incredient name="Air"/><incredient name="Diamond"/>
+	<incredient name="Diamond"/><incredient name="Air"/><incredient name="Diamond"/>
+</blueprint>
+
+
+<blueprint product="Leather Boots" amount="1" patternWidth="3" patternHeight="2">
+	<incredient name="Leather"/><incredient name="Air"/><incredient name="Leather"/>
+	<incredient name="Leather"/><incredient name="Air"/><incredient name="Leather"/>
+</blueprint>
+
+<blueprint product="Iron Boots" amount="1" patternWidth="3" patternHeight="2">
+	<incredient name="Iron Ingot"/><incredient name="Air"/><incredient name="Iron Ingot"/>
+	<incredient name="Iron Ingot"/><incredient name="Air"/><incredient name="Iron Ingot"/>
+</blueprint>
+
+<blueprint product="Gold Boots" amount="1" patternWidth="3" patternHeight="2">
+	<incredient name="Gold Ingot"/><incredient name="Air"/><incredient name="Gold Ingot"/>
+	<incredient name="Gold Ingot"/><incredient name="Air"/><incredient name="Gold Ingot"/>
+</blueprint>
+
+<blueprint product="Diamond Boots" amount="1" patternWidth="3" patternHeight="2">
+	<incredient name="Diamond"/><incredient name="Air"/><incredient name="Diamond"/>
+	<incredient name="Diamond"/><incredient name="Air"/><incredient name="Diamond"/>
+</blueprint>
+
+
+<blueprint product="Ladder" amount="2" patternWidth="3" patternHeight="3">
+	<incredient name="Stick"/><incredient name="Air"/><incredient name="Stick"/>
+	<incredient name="Stick"/><incredient name="Stick"/><incredient name="Stick"/>
+	<incredient name="Stick"/><incredient name="Air"/><incredient name="Stick"/>
+</blueprint>
+
+<blueprint product="Fence" amount="2" patternWidth="3" patternHeight="2">
+	<incredient name="Stick"/><incredient name="Stick"/><incredient name="Stick"/>
+	<incredient name="Stick"/><incredient name="Stick"/><incredient name="Stick"/>
+</blueprint>
+
+<blueprint product="Book" amount="1" patternWidth="1" patternHeight="3">
+	<incredient name="Paper"/>
+	<incredient name="Paper"/>
+	<incredient name="Paper"/>
+</blueprint>
+
+<blueprint product="Paper" amount="3" patternWidth="3" patternHeight="1">
+	<incredient name="Sugar Cane"/><incredient name="Sugar Cane"/><incredient name="Sugar Cane"/>
+</blueprint>
+
+<blueprint product="Bed" amount="1" patternWidth="3" patternHeight="2">
+	<incredient name="Wool"/><incredient name="Wool"/><incredient name="Wool"/>
+	<incredient name="Wooden Plank"/><incredient name="Wooden Plank"/><incredient name="Wooden Plank"/>
+</blueprint>
+
+<blueprint product="Painting" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Stick"/><incredient name="Stick"/><incredient name="Stick"/>
+	<incredient name="Stick"/><incredient name="Wool"/><incredient name="Stick"/>
+	<incredient name="Stick"/><incredient name="Stick"/><incredient name="Stick"/>
+</blueprint>
+
+<blueprint product="Bowl" amount="4" patternWidth="3" patternHeight="2">
+	<incredient name="Wooden Plank"/><incredient name="Air"/><incredient name="Wooden Plank"/>
+	<incredient name="Air"/><incredient name="Wooden Plank"/><incredient name="Air"/>
+</blueprint>
+
+<blueprint product="Mushroom Stew" amount="1" patternWidth="1" patternHeight="3">
+	<incredient name="Red Mushroom"/>
+	<incredient name="Brown Mushroom"/>
+	<incredient name="Bowl"/>
+</blueprint>
+
+<blueprint product="Mushroom Stew" amount="1" patternWidth="1" patternHeight="3">
+	<incredient name="Brown Mushroom"/>
+	<incredient name="Red Mushroom"/>
+	<incredient name="Bowl"/>
+</blueprint>
+
+<blueprint product="Bread" amount="1" patternWidth="3" patternHeight="1">
+	<incredient name="Wheat"/><incredient name="Wheat"/><incredient name="Wheat"/>
+</blueprint>
+
+<blueprint product="Sugar" amount="1" patternWidth="1" patternHeight="1">
+	<incredient name="Sugar Cane"/>
+</blueprint>
+
+<blueprint product="Cake" amount="1" patternWidth="3" patternHeight="3">
+	<incredient name="Bucket (Milk)"/><incredient name="Bucket (Milk)"/><incredient name="Bucket (Milk)"/>
+	<incredient name="Sugar"/><incredient name="Egg"/><incredient name="Sugar"/>
+	<incredient name="Wheat"/><incredient name="Wheat"/><incredient name="Wheat"/>
+</blueprint>
+
+</blueprints>

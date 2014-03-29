@@ -1,0 +1,130 @@
+<itemdefinitions>
+
+<itemcategory id="1" name="Head Armor" />
+<itemcategory id="2" name="Chest Armor" />
+<itemcategory id="3" name="Leg Armor" />
+<itemcategory id="4" name="Feet Armor" />
+
+<itemcategory id="5" name="Weapon" />
+<itemcategory id="6" name="Axe" />
+<itemcategory id="7" name="Pickaxe" />
+<itemcategory id="8" name="Shovel" />
+<itemcategory id="9" name="Hoe" />
+
+<item id="298" name="Leather Helmet" textureID="0" category="Head Armor" durability="34" />
+<item id="302" name="Chainmail Helmet" textureID="1" category="Head Armor" durability="67" />
+<item id="306" name="Iron Helmet" textureID="2" category="Head Armor" durability="136" />
+<item id="310" name="Diamond Helmet" textureID="3" category="Head Armor" durability="272" />
+<item id="314" name="Gold Helmet" textureID="4" category="Head Armor" durability="68" />
+
+<item id="299" name="Leather Chestplate" textureID="16" category="Chest Armor" durability="49" />
+<item id="303" name="Chainmail Chestplate" textureID="17" category="Chest Armor" durability="96" />
+<item id="307" name="Iron Chestplate" textureID="18" category="Chest Armor" durability="192" />
+<item id="311" name="Diamond Chestplate" textureID="19" category="Chest Armor" durability="385" />
+<item id="315" name="Gold Chestplate" textureID="20" category="Chest Armor" durability="96" />
+
+<item id="300" name="Leather Leggings" textureID="32" category="Leg Armor" durability="46" />
+<item id="304" name="Chainmail Leggings" textureID="33" category="Leg Armor" durability="92" />
+<item id="308" name="Iron Leggings" textureID="34" category="Leg Armor" durability="184" />
+<item id="312" name="Diamond Leggings" textureID="35" category="Leg Armor" durability="368" />
+<item id="316" name="Gold Leggings" textureID="36" category="Leg Armor" durability="92" />
+
+<item id="301" name="Leather Boots" textureID="48" category="Feet Armor" durability="40" />
+<item id="305" name="Chainmail Boots" textureID="49" category="Feet Armor" durability="79" />
+<item id="309" name="Iron Boots" textureID="50" category="Feet Armor" durability="160" />
+<item id="313" name="Diamond Boots" textureID="51" category="Feet Armor" durability="320" />
+<item id="317" name="Gold Boots" textureID="52" category="Feet Armor" durability="80" />
+
+<item id="268" name="Wooden Sword" textureID="64" category="Weapon" durability="59"/>
+<item id="272" name="Stone Sword" textureID="65" category="Weapon" durability="131"/>
+<item id="267" name="Iron Sword" textureID="66" category="Weapon" durability="250"/>
+<item id="276" name="Diamond Sword" textureID="67" category="Weapon" durability="1561"/>
+<item id="283" name="Gold Sword" textureID="68" category="Weapon" durability="32"/>
+
+<item id="270" name="Wooden Pickaxe" textureID="96" category="Pickaxe" durability="59" harvestLevel="1" dmgBlock="2" dmgEntity="0" />
+<item id="274" name="Stone Pickaxe" textureID="97" category="Pickaxe"  durability="131" harvestLevel="2" dmgBlock="4" dmgEntity="1" />
+<item id="257" name="Iron Pickaxe" textureID="98" category="Pickaxe"  durability="250" harvestLevel="3" dmgBlock="6" dmgEntity="2" />
+<item id="278" name="Diamond Pickaxe" textureID="99" category="Pickaxe" durability="1561" harvestLevel="4" dmgBlock="8" dmgEntity="3" />
+<item id="285" name="Gold Pickaxe" textureID="100" category="Pickaxe" durability="32" harvestLevel="1" dmgBlock="12" dmgEntity="0" />
+
+<item id="271" name="Wooden Axe" textureID="112" category="Axe" durability="59" harvestLevel="1" dmgBlock="2" dmgEntity="0" />
+<item id="275" name="Stone Axe" textureID="113" category="Axe" durability="131" harvestLevel="2" dmgBlock="4" dmgEntity="1" />
+<item id="258" name="Iron Axe" textureID="114" category="Axe" durability="250" harvestLevel="3" dmgBlock="6" dmgEntity="2" />
+<item id="279" name="Diamond Axe" textureID="115" category="Axe" durability="1561" harvestLevel="4" dmgBlock="8" dmgEntity="3" />
+<item id="286" name="Gold Axe" textureID="116" category="Axe" durability="32" harvestLevel="1" dmgBlock="12" dmgEntity="0" />
+
+<item id="269" name="Wooden Shovel" textureID="80" category="Shovel" durability="59" harvestLevel="1" dmgBlock="2" dmgEntity="0" />
+<item id="273" name="Stone Shovel" textureID="81" category="Shovel" durability="131" harvestLevel="2" dmgBlock="4" dmgEntity="1" />
+<item id="256" name="Iron Shovel" textureID="82" category="Shovel" durability="250" harvestLevel="3" dmgBlock="6" dmgEntity="2" />
+<item id="277" name="Diamond Shovel" textureID="83" category="Shovel" durability="1561" harvestLevel="4" dmgBlock="8" dmgEntity="3" />
+<item id="284" name="Gold Shovel" textureID="84" category="Shovel" durability="32" harvestLevel="1" dmgBlock="12" dmgEntity="0" />
+
+<item id="290" name="Wooden Hoe" textureID="128" category="Hoe" durability="59" harvestLevel="1" dmgBlock="2" dmgEntity="0" />
+<item id="291" name="Stone Hoe" textureID="129" category="Hoe" durability="131" harvestLevel="2" dmgBlock="4" dmgEntity="1" />
+<item id="292" name="Iron Hoe" textureID="130" category="Hoe" durability="250" harvestLevel="3" dmgBlock="6" dmgEntity="2" />
+<item id="293" name="Diamond Hoe" textureID="131" category="Hoe" durability="1561" harvestLevel="4" dmgBlock="8" dmgEntity="3" />
+<item id="294" name="Gold Hoe" textureID="132" category="Hoe" durability="32" harvestLevel="1" dmgBlock="12" dmgEntity="0" />
+
+<item id="259" name="Flint and Steel" textureID="5" />
+<item id="318" name="Flint" textureID="6" />
+<item id="263" name="Coal" textureID="7" />
+<item id="287" name="String" textureID="8" />
+<item id="295" name="Seeds" textureID="9" />
+<item id="260" name="Apple" textureID="10" />
+<item id="322" name="Golden Apple" textureID="11" />
+<item id="344" name="Egg" textureID="12" />
+<item id="332" name="Snowball" textureID="14" />
+
+<item id="261" name="Bow" textureID="21" />
+<item id="336" name="Clay Brick" textureID="22" />
+<item id="265" name="Iron Ingot" textureID="23" />
+<item id="288" name="Feather" textureID="24" />
+<item id="296" name="Wheat" textureID="25" />
+<item id="321" name="Painting" textureID="26" />
+<item id="338" name="Sugar Cane" textureID="27" />
+<item id="341" name="Slimeball" textureID="30" />
+
+<item id="262" name="Arrow" textureID="37" />
+<item id="266" name="Gold Ingot" textureID="39" />
+<item id="289" name="Gunpowder" textureID="40" />
+<item id="297" name="Bread" textureID="41" />
+<item id="323" name="Sign" textureID="42" />
+<item id="324" name="Wooden Door" textureID="43" />
+<item id="330" name="Iron Door" textureID="44" />
+
+<item id="280" name="Stick" textureID="53" />
+<item id="345" name="Compass" textureID="54" />
+<item id="264" name="Diamond" textureID="55" />
+<item id="331" name="Redstone" textureID="56" />
+<item id="337" name="Clay Ball" textureID="57" />
+<item id="339" name="Paper" textureID="58" />
+<item id="340" name="Book" textureID="59" />
+
+<item id="346" name="Fishing Rod" textureID="69" />
+<item id="347" name="Clock" textureID="70" />
+<item id="281" name="Bowl" textureID="71" />
+<item id="282" name="Mushroom Soup" textureID="72" />
+<item id="348" name="Glowstone Dust" textureID="73" />
+<item id="325" name="Bucket" textureID="74" />
+<item id="326" name="Bucket (Water)" textureID="75" />
+<item id="327" name="Bucket (Lava)" textureID="76" />
+<item id="335" name="Bucket (Milk)" textureID="77" />
+
+<item id="319" name="Raw Porkchop" textureID="87" />
+<item id="320" name="Cooked Porkchop" textureID="88" />
+<item id="349" name="Raw Fish" textureID="89" />
+<item id="350" name="Cooked Fish" textureID="90" />
+
+<item id="334" name="Leather" textureID="103" />
+<item id="329" name="Saddle" textureID="104" />
+
+<item id="328" name="Minecart" textureID="135" />
+<item id="333" name="Boat" textureID="136" />
+
+<item id="342" name="Storage Minecart" textureID="151" />
+<item id="343" name="Powered Minecart" textureID="152" />
+
+<item id="2256" name="Gold Music Disc" textureID="240" />
+<item id="2257" name="Green Music Disc" textureID="241" />
+
+</itemdefinitions>
